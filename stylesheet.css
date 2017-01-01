@@ -1,0 +1,22 @@
+#image{
+  width: 272px;
+  height: 92px;
+  margin: auto;
+  display: block;
+  padding-top: 200px;
+
+}
+body{
+  background-color: white;
+}
+.sl{
+  display:inline-block;
+}
+#search{display: block;
+  margin: auto;
+  width: 400px;
+  height: 70;
+  border-radius: 10px;
+  border-width:medium;
+
+}
