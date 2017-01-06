@@ -7,6 +7,17 @@
   padding-left: 300px;
 
 }
+#alart {
+height: 29px;
+width: 29px;
+padding-top: -14px;
+padding-right: -5px;
+margin-top:-8px;
+opacity: 0.55;
+}
+#alart:hover {
+  opacity: 0.90;
+}
 body{
   background-color: white;
   font-size: small;
@@ -78,12 +89,29 @@ a:hover{ footer {
 	padding-top: -14px;
 	padding-right: -5px;
 	margin-top:-8px;
+  opacity: 0.55;
+}
+#apps:hover{
+opacity: 0.90;
 }
 #search {
-  padding: 3px 9px 3px 9px;
-  	height: 15px;
-  	width: 300px;
-}
+
+  	border: none;
+  	outline: none;
+  	padding-left: 15px;
+    padding-right: 15px;
+  	margin: 0px;
+  	height: 40px;
+  	width: 500px;
+  	background: transparent;
+    	border-radius: 2px;
+    	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .2), 0px 0px 0px 1px rgba(0, 0, 0, .1);
+  }
+  #search:hover{
+
+      box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.08);
+      border: none;
+  }
 
 button {
  	padding: 8px 18px;
